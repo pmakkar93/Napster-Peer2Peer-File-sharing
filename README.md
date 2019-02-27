@@ -30,6 +30,8 @@ corresponding peers that have the file.
 3) Retrieving/Downloading the file from the desired peer.
 4) Calculating the average response time for 500 sequential requests as well as for multiple
 concurrent requests to our indexing server.
+
+
 Why Java RMI ?
 We used Java RMI because it helps us to invoke methods that are present on different Java
 Virtual Machines (JVMs) either on the same or on different physical machines. Both the
